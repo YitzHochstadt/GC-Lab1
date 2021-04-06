@@ -2,6 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f9fafc;
     color: #000;
+    margin-bottom: 40px;
 }
 h1{
     font-size: 25px;
@@ -37,3 +38,94 @@ p{
     border-left: 3px solid #69696a;
     padding-left: 15px;
 }
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(247, 193, 162, 0.7);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 40px;
+}
+h3{
+    left: 0;
+    margin-left: 15px;
+}
+.footer-list{
+    display: flex;;
+    position: fixed;
+    right: 0;
+}
+.footer-list li{
+    margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+    .bar{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        margin-right: 0;
+    }
+    li{
+        margin-right: 10px;
+    }
+    .hire{
+        width: 10%;
+        margin-left: 0;
+    }
+    h1{
+        flex: 1; 
+    }
+    .main-words{
+        display: flex;
+    }
+    .main-text{
+        margin: 80px 50% 0 25px;
+    }
+    .call{
+        width: 45%;
+        margin: 0 25px;
+    }
+    .bubbles {
+        opacity: 1.25;
+        border-radius: 50%;
+        position: absolute;
+    }
+    .bubble1 {
+        width: 200px;
+        height: 200px;
+        background-color: rgba(247, 136, 167, 0.6);
+        right: 110px;
+        top: 180px;
+
+    }
+    .bubble2 {
+        width: 150px;
+        height: 150px;
+        background-color: rgba(247, 193, 162, 0.7);
+        top: 300px;
+        right: 25px;
+    }
+    .bubble3{
+        width: 100px;
+        height: 100px;
+        background-color: rgba(207, 130, 213, 0.6);
+        top: 220px;
+        right: 46px;
+    }
+}
+
+
+/*
+ Large: rgba(247, 136, 167, 0.6)
+■ Medium: rgba(247, 193, 162, 0.7)
+■ Small: rgba(207, 130, 213, 0.6)
+*/
