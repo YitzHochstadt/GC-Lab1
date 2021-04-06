@@ -1,0 +1,39 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9fafc;
+    color: #000;
+}
+h1{
+    font-size: 25px;
+    margin-left: 38px;
+}
+h2{
+    font-size: 35px;
+    font-weight: bolder;
+}
+ul {
+    list-style: none;
+    color: #69696a;
+}
+ul li{
+    margin-top: 10px;
+}
+a{
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    border-radius: 20px;
+    height: 35px;
+}
+.main-text{
+    margin-left: 38px;
+}
+p{
+    border-left: 3px solid #69696a;
+    padding-left: 15px;
+}
